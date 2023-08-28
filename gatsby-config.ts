@@ -8,8 +8,8 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.mjs
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
+    siteTitle: `Tarık`,
+    siteTitleAlt: `Tarık Koç - Portfolio`,
     siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
     siteUrl: `https://jodie.lekoarts.de`,
     siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
@@ -24,9 +24,9 @@ const config: GatsbyConfig = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
-          { name: `About`, slug: `/about` },
+          { name: `Projeler`, slug: `/projects` },
+          { name: `Vizyonum`, slug: `/art` },
+          { name: `Hakkımda`, slug: `/about` },
         ],
       },
     },
@@ -40,7 +40,7 @@ const config: GatsbyConfig = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `jodie - @lekoarts/gatsby-theme-jodie`,
-        short_name: `jodie`,
+        short_name: `Tarık`,
         description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
         start_url: `/`,
         background_color: `#ffffff`,
